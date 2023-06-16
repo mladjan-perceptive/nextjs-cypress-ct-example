@@ -2,10 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   experimental: {
-    swcPlugins: [
-      ['swc-plugin-coverage-instrument', {}]
-    ]
-  }
-}
+    swcPlugins: [["swc-plugin-coverage-instrument", {}]],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

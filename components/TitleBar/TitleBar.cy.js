@@ -1,8 +1,8 @@
-import React from 'react'
-import TitleBar from './TitleBar'
+import React from "react";
+import TitleBar from "./TitleBar";
 
-describe('<TitleBar />', () => {
-  it('renders', () => {
-    cy.mount(<TitleBar />)
-  })
-})
+describe("<TitleBar />", () => {
+  it("renders", () => {
+    cy.nextMount(<TitleBar />);
+  });
+});
